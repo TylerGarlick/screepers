@@ -17,10 +17,7 @@
     "watch-pserver": "rollup -cw --environment DEST:pserver",
     "watch-sim": "rollup -cw --environment DEST:sim"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/screepers/screeps-typescript-starter.git"
-  },
+  "repository": "git+https://github.com/screepers/screeps-typescript-starter.git",
   "author": "",
   "license": "Unlicense",
   "bugs": {
@@ -58,6 +55,7 @@
     "typescript": "^2.9.2"
   },
   "dependencies": {
+    "screeps": "^3.2.1",
     "source-map": "~0.6.1"
   }
 }

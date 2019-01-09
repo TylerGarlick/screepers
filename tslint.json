@@ -10,6 +10,7 @@
     "member-ordering": [false],
     "no-console": [false],
     "no-namespace": [true, "allow-declarations"],
+    "semicolon": [false, "never"],
     "variable-name": [
       true,
       "ban-keywords",
